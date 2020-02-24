@@ -1,0 +1,18 @@
+import time
+def newstory():
+    print('Hello is anyone there? I am a new Robot here in town')
+    time.sleep(1.5)
+    print('I would really love to talk to you.')
+    time.sleep(1)
+    name = input('What is your name ?:')
+    time.sleep(1.4)
+    print('Oh Hi',name,'Thank you for taking you\'re time to talk to me, I really appreciate it!')
+    time.sleep(1.5)
+    food = input('I can\'t remember the last time I had chocolate pudding. That\'s my fav what is you\'re fav dessert?:')
+    time.sleep(1.4)
+    print('yum!',food, 'sounds delicious!')
+    time.sleep(1.4)
+    year = input('It has been so long '+ name + ' ,Could you please tell me what year we are currently living in ?:')
+    time.sleep(1.4)
+    print('Thanks!',name,'....so it is',year)
+newstory()

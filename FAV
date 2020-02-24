@@ -1,0 +1,10 @@
+import time
+object = input('Name an object in your room:')
+food = input('What kind of food do you like?:')
+color = input('What is your favorite colour?:')
+animal = input('Enter a name of a zoo animal:')
+time.sleep(2)
+print('Here is a small story for you!')
+time.sleep(2)
+print('The'+animal+' jumped over the'+object+' and ran out the door only to eat'+food+' at your favorite resturant! '
+      'wearing a'+ color+ ' dress')

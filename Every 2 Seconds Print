@@ -1,0 +1,11 @@
+import threading
+
+def multiprint():
+  threading.Timer(2.0, multiprint).start()
+  print("I want lactose free ice cream!")
+
+multiprint()
+
+# Prints every 2 seconds 
+#I want lactose free ice cream!
+#I want lactose free ice cream!

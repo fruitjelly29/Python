@@ -1,0 +1,4 @@
+import turtle
+dumbo = turtle.Turtle()
+dumbo.shape('turtle')
+print(dumbo.xcor(),dumbo.ycor())

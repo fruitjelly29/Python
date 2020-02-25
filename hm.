@@ -1,0 +1,13 @@
+import turtle
+dumbo = turtle.Turtle()
+dumbo.forward(100)
+dumbo.right(90)
+dumbo.left(60)
+dumbo.backward(100)
+dumbo.color('red')
+dumbo.circle(100)
+dumbo.penup()
+dumbo.pendown()
+dumbo.reset()
+dumbo.goto(35,80)
+dumbo.hideturtle()
